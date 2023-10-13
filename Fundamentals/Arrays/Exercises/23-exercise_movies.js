@@ -1,6 +1,7 @@
 // ARRAYS
 
 // Movies object.
+
 // All the movies in 2018 with rating > 4
 // Sort them by their rating
 // descending order
