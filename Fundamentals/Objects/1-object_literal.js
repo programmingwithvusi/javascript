@@ -7,11 +7,12 @@ let redius = 1;
 let x = 1;
 let y = 1;
 
+// object literal syntax
 const circle = {
   radius: 1,
   location: {
     x: 1,
-    y: 1,
+    y: 1
   },
   isVisible: true,
   draw: function () {
@@ -19,7 +20,7 @@ const circle = {
   },
   move: function () {
     console.log("Move");
-  },
+  }
 };
 
 // Both function are hight related to the variables above.
