@@ -8,9 +8,8 @@ function Stopwatch() {
 
   this.start = function () {
     if (running) throw new Error("Stopwatch has already started");
-    setInterval(() => {
-      running = true;
-    }, 3000);
+
+    running = true;
     startTime = new Date();
   };
 
