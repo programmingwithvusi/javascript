@@ -36,6 +36,7 @@ function HtmlSelectElement(items = []) {
 
 // correction adding new keyword, this assign properties and functions to child object
 HtmlSelectElement.prototype = new HtmlElement();
+HtmlSelectElement.prototype.constructor = HtmlSelectElement;
 
 const s = new HtmlSelectElement();
 s.addItem("1");
