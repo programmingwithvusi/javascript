@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "javascript",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000j\u0000a\u0000v\u0000a\u0000s\u0000c\u0000r\u0000i\u0000p\u0000t\u0000\r\u0000 \u0000",
@@ -562,6 +563,7 @@
     "yallist": "^3.1.1"
   },
   "devDependencies": {
+    "@webpack-cli/generators": "^3.0.7",
     "parcel-bundler": "^1.12.5"
   },
   "scripts": {

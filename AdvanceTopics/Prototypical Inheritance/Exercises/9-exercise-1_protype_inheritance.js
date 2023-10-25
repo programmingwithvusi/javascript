@@ -31,6 +31,7 @@ function HtmlSelectElement(items = []) {
     //console.log("Remove item");
   };
 }
+
 // missing the new keyword to assign prarent properties and functions to the child prototype object.
 //HtmlSelectElement.prototype.constructor = HtmlElement;
 
